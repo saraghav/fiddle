@@ -16,12 +16,12 @@ sudo apt-get install synaptic
 * `bazel`: Simple, easy build management (install instructions on website).
 * `docker`: Portable runtimes environment ala containers.
 * `golang`: Irresistible gopher.
-* `docker`: Docker container management system.
 * `pip3`: Package manager for Python 3.
 * `Vundle`: Vim plugin manager. Installation instructions on website. Plugins installed/used via Vundle are listed below.
   - `vim-codefmt`: A code formatter for various languages, supporting the :FormatCode command.
 * `yapf`: Yet another Python Formatter (a dependency for `vim-codefmt`).
 * `buildifier`: A formatter for BUILD files (a dependency for `vim-codefmt`).
+* `hugo`: Static site generator; useful for github pages.
 
 ```bash
 sudo apt-get install silversearcher-ag
@@ -32,6 +32,7 @@ sudo apt-get install python3-yapf # Does not appear to help vim-codefmt
 sudo apt-get install yapf3 # Works with vim-codefmt after symlink /usr/bin/yapf -> /usr/bin/yapf3
 
 sudo snap install docker
+snap install hugo --channel=extended
 
 sudo pip3 install yapf # Does not appear to help vim-codefmt
 

@@ -22,6 +22,9 @@ sudo apt-get install synaptic
 * `yapf`: Yet another Python Formatter (a dependency for `vim-codefmt`).
 * `buildifier`: A formatter for BUILD files (a dependency for `vim-codefmt`).
 * `hugo`: Static site generator; useful for github pages.
+  - `npm`: Package manager for JavaScript.
+  - `postcss-cli`: Needed by `hugo`
+  - `autoprefixer`: Needed by `hugo`.
 
 ```bash
 sudo apt-get install silversearcher-ag
@@ -42,11 +45,13 @@ go get github.com/bazelbuild/buildtools/buildifier
 ## Python libraries
 * `matplotlib`: Matplotlib for Python3.
 * `absl-py`: Abseil Python libraries from Google.
+* `pycairo`: Python bindings for cairo.
 
 ```bash
 sudo apt-get install python3-matplotlib
 
 sudo pip3 install absl-py
+sudo pip3 install pycairo
 ```
 
 ## Miscellaneous notes

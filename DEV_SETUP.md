@@ -37,7 +37,7 @@ sudo apt-get install yapf3 # Works with vim-codefmt after symlink /usr/bin/yapf 
 sudo snap install docker
 snap install hugo --channel=extended
 
-sudo pip3 install yapf # Does not appear to help vim-codefmt
+sudo -H pip3 install yapf # Does not appear to help vim-codefmt
 
 go get github.com/bazelbuild/buildtools/buildifier
 ```
@@ -46,12 +46,14 @@ go get github.com/bazelbuild/buildtools/buildifier
 * `matplotlib`: Matplotlib for Python3.
 * `absl-py`: Abseil Python libraries from Google.
 * `pycairo`: Python bindings for cairo.
+* `sympy`: Python library for symbolic computation.
 
 ```bash
 sudo apt-get install python3-matplotlib
 
-sudo pip3 install absl-py
-sudo pip3 install pycairo
+sudo -H pip3 install absl-py
+sudo -H pip3 install pycairo
+sudo -H pip3 install sympy
 ```
 
 ## Miscellaneous notes

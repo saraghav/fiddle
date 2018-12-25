@@ -47,9 +47,13 @@ go get github.com/bazelbuild/buildtools/buildifier
 * `absl-py`: Abseil Python libraries from Google.
 * `pycairo`: Python bindings for cairo.
 * `sympy`: Python library for symbolic computation.
+* `numpy`: Python algebra library.
+* `scipy`: Python scientific computation library.
 
 ```bash
 sudo apt-get install python3-matplotlib
+sudo apt-get install python3-numpy
+sudo apt-get install python3-scipy
 
 sudo -H pip3 install absl-py
 sudo -H pip3 install pycairo
